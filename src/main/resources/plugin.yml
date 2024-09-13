@@ -1,0 +1,15 @@
+name: SimpleSpectator
+version: '1.0'
+main: online.slavok.simpleSpectator.SimpleSpectator
+api-version: '1.21'
+commands:
+  spectator:
+    description: Переключение в режим наблюдения
+    usage: /<command>
+    aliases: [s]
+    permission: spectator.command
+
+permissions:
+  spectator.command:
+    description: Право на использование команды /spectator
+    default: false
