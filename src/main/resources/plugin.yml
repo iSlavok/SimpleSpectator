@@ -1,5 +1,5 @@
 name: SimpleSpectator
-version: '1.0'
+version: '1.1'
 main: online.slavok.simpleSpectator.SimpleSpectator
 api-version: '1.21'
 commands:
